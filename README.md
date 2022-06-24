@@ -6,7 +6,7 @@ The data set used is from the the Kaggle Competition [House Prices - Advanced Re
 
 Given several dozen predictors/featues, we want to accurately predict the sale price of a house.
 
-Topics Covered:
+Machine learning models covered:
 
 - Linear Regression
   - Lasso - L1
@@ -21,6 +21,7 @@ Topics Covered:
 - Decision Trees  
 - Gradient Boosted Decision Trees (GBDT)
 - Support Vector Machines
+- [Principal Component Analysis](pca.md) (PCA)
 - Stochastic Gradient Descent
 - Deep Neural Networks (DNN)
   - Activation Functions
@@ -28,6 +29,11 @@ Topics Covered:
 In addition, we will cover other topics important to solving machine:
 
 - Feature Engineering
+  - Data Transformation
+    - Scaling
+    - Gaussian Normal
+    - log transform
+    - skew, kurtosis
 - Missing Values
 - Loss Functions
   - MAE
