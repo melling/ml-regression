@@ -13,10 +13,10 @@ Topics Covered:
   - Ridge - L2
   - Polynomial
   - Residuals
-  - Colinearity
+  - Collinearity
   - Interactions
   - Mathematics
-    - Solving Ax=b usong numpy
+    - Solving Ax=b using numpy
     - Normal Equations
 - Decision Trees  
 - Gradient Boosted Decision Trees (GBDT)
@@ -40,3 +40,9 @@ In addition, we will cover other topics important to solving machine:
   - Permutation Importance
   - Mutual Information
   
+## RMSE
+
+[RMSE](https://en.wikipedia.org/wiki/Root-mean-square_deviation)
+
+$$RMSE = \sqrt{\frac{1}{n}\Sigma_{i=1}^{n}{\Big(\frac{\hat{y}_i -y_i}{\sigma_i}\Big)^2}}$$
+
