@@ -4,12 +4,20 @@ This is a deep dive into learning to solve machine learning regression problems.
 
 The data set used is from the the Kaggle Competition [House Prices - Advanced Regression Techniques](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques)
 
-Given several dozen predictors/featues, can we predict the sales price of a house?
+Given several dozen predictors/featues, we want to accurately predict the sale price of a house.
+
+Topics Covered:
 
 - Linear Regression
-  - Lasso
-  - Ridge
+  - Lasso - L1
+  - Ridge - L2
   - Polynomial
+  - Residuals
+  - Colinearity
+  - Interactions
+  - Mathematics
+    - Solving Ax=b usong numpy
+    - Normal Equations
 - Decision Trees  
 - Gradient Boosted Decision Trees (GBDT)
 - Support Vector Machines
