@@ -11,6 +11,7 @@ Given several dozen predictors/featues, we want to accurately predict the sale p
 - [Quickstart](house-prices-quickstart.ipynb)
 - [Lasso and Ridge Regression](house-prices-lasso-and-ridge.ipynb)
 - [Polynomial Features](house-prices-polynomial.ipynb)
+- [Stochastic Gradient Descent](house-prices-sgd.ipynb)
 - [Decision Trees and Random Forests](house-prices-decision-tree-and-random-forest.ipynb)
 - [XGBoost](house-prices-xgboost.ipynb)
 - [Tensorflow](house-prices-tensorflow.ipynb)
