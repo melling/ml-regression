@@ -6,7 +6,20 @@ The data set used is from the the Kaggle Competition [House Prices - Advanced Re
 
 Given several dozen predictors/featues, we want to accurately predict the sale price of a house.
 
-Machine learning models covered:
+## Notebooks
+
+- [Quickstart](house-prices-quickstart.ipynb)
+- [Lasso and Ridge Regression](house-prices-lasso-and-ridge.ipynb)
+- [Polynomial Features](house-prices-polynomial.ipynb)
+- [Decision Trees and Random Forests](house-prices-decision-tree-and-random-forest.ipynb)
+- [XGBoost](house-prices-xgboost.ipynb)
+- [Tensorflow](house-prices-tensorflow.ipynb)
+- [PyTorch](house-prices-pytorch.ipynb)
+- [MLPRegressor]
+- [EDA]((house-prices-eda.ipynb)
+- Feature Engineering
+
+## Machine Learning Models Covered
 
 - Linear Regression
   - Lasso - L1
@@ -45,7 +58,8 @@ In addition, we will cover other topics important to solving machine:
   - SHAP
   - Permutation Importance
   - Mutual Information
-  
+
+
 ## RMSE
 
 [RMSE](https://en.wikipedia.org/wiki/Root-mean-square_deviation)
