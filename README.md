@@ -15,8 +15,8 @@ Given several dozen predictors/featues, we want to accurately predict the sale p
 - [Decision Tree and Random Forests](house-prices-decision-tree-and-random-forest.ipynb)
 - [Gradient Boosted Trees - XGBoost/Catboost/LightGBM](house-prices-xgboost.ipynb)
 - [Support Vector Machines](house-prices-support-vector-regression.ipynb)
-- ***
 - [Tensorflow](house-prices-tensorflow.ipynb)
+- ***
 - [PyTorch](house-prices-pytorch.ipynb)
 - [MLPRegressor]
 - [EDA](house-prices-eda.ipynb)
@@ -42,7 +42,7 @@ Given several dozen predictors/featues, we want to accurately predict the sale p
 - Deep Neural Networks (DNN)
   - Activation Functions
 
-In addition, we will cover other topics important to solving machine:
+In addition, we will cover other topics important to machine learning:
 
 - Feature Engineering
   - Data Transformation
