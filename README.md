@@ -59,7 +59,7 @@ In addition, we will cover other topics important to solving machine:
   - SHAP
   - Permutation Importance
   - Mutual Information
-
+- Hyperparameter Optimization
 
 ## RMSE
 
