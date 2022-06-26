@@ -13,8 +13,9 @@ Given several dozen predictors/featues, we want to accurately predict the sale p
 - [Polynomial Features](house-prices-polynomial.ipynb)
 - [Stochastic Gradient Descent](house-prices-sgd.ipynb)
 - [Decision Tree and Random Forests](house-prices-decision-tree-and-random-forest.ipynb)
+- [Gradient Boosted Trees - XGBoost/Catboost/LightGBM](house-prices-xgboost.ipynb)
 - ***
-- [XGBoost](house-prices-xgboost.ipynb)
+- [Support Vector Machines]
 - [Tensorflow](house-prices-tensorflow.ipynb)
 - [PyTorch](house-prices-pytorch.ipynb)
 - [MLPRegressor]
