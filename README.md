@@ -12,12 +12,13 @@ Given several dozen predictors/featues, we want to accurately predict the sale p
 - [Lasso and Ridge Regression](house-prices-lasso-and-ridge.ipynb)
 - [Polynomial Features](house-prices-polynomial.ipynb)
 - [Stochastic Gradient Descent](house-prices-sgd.ipynb)
-- [Decision Trees and Random Forests](house-prices-decision-tree-and-random-forest.ipynb)
+- [Decision Tree and Random Forests](house-prices-decision-tree-and-random-forest.ipynb)
+- ***
 - [XGBoost](house-prices-xgboost.ipynb)
 - [Tensorflow](house-prices-tensorflow.ipynb)
 - [PyTorch](house-prices-pytorch.ipynb)
 - [MLPRegressor]
-- [EDA]((house-prices-eda.ipynb)
+- [EDA](house-prices-eda.ipynb)
 - Feature Engineering
 
 ## Machine Learning Models Covered
