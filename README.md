@@ -16,6 +16,7 @@ Given several dozen predictors/featues, we want to accurately predict the sale p
 - [SelectK Best Features]
 - [Forward Feature Selection]
 - [Stochastic Gradient Descent](house-prices-sgd.ipynb)
+- [Outliers]
 - [Decision Tree and Random Forests](house-prices-decision-tree-and-random-forest.ipynb)
 - [GridSearchCV]
 - [Gradient Boosted Trees - XGBoost/Catboost/LightGBM](house-prices-xgboost.ipynb)
@@ -25,6 +26,7 @@ Given several dozen predictors/featues, we want to accurately predict the sale p
 - [Support Vector Machines](house-prices-support-vector-regression.ipynb)
 - [Tensorflow](house-prices-tensorflow.ipynb)
 - ***
+- [Nonlinear Regression]
 - [Ensemble Learning - Blending]
 - [Robust Regression - RANSAC]
 - [PyTorch](house-prices-pytorch.ipynb)
