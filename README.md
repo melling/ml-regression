@@ -17,12 +17,15 @@ Given several dozen predictors/featues, we want to accurately predict the sale p
 - [Stochastic Gradient Descent](house-prices-sgd.ipynb)
 - [Decision Tree and Random Forests](house-prices-decision-tree-and-random-forest.ipynb)
 - [Gradient Boosted Trees - XGBoost/Catboost/LightGBM](house-prices-xgboost.ipynb)
+- [GBDT Feature Importance]
+- [SHAP Values]
 - [Support Vector Machines](house-prices-support-vector-regression.ipynb)
 - [Tensorflow](house-prices-tensorflow.ipynb)
 - ***
 - [PyTorch](house-prices-pytorch.ipynb)
 - [MLPRegressor]
-- [EDA](house-prices-eda.ipynb)
+- [Basic EDA](house-prices-eda.ipynb)
+- [Enhanced EDA]
 - Feature Engineering
 
 ## Machine Learning Models Covered
