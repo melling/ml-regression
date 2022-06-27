@@ -18,7 +18,8 @@ Given several dozen predictors/featues, we want to accurately predict the sale p
 - [Stochastic Gradient Descent](house-prices-sgd.ipynb)
 - [Outliers]
 - [Decision Tree and Random Forests](house-prices-decision-tree-and-random-forest.ipynb)
-- [GridSearchCV]
+- [GridSearchCV](house-prices-rf-gridsearchcv.ipynb)
+- [MLPRegressor](mlpregressor.ipynb)
 - [Gradient Boosted Trees - XGBoost/Catboost/LightGBM](house-prices-xgboost.ipynb)
 - [GBDT Feature Importance]
 - [SHAP Values]
@@ -32,7 +33,6 @@ Given several dozen predictors/featues, we want to accurately predict the sale p
 - [Robust Regression - RANSAC]
 - [Nonlinear Regression]
 - [PyTorch](house-prices-pytorch.ipynb)
-- [MLPRegressor]
 - [Basic EDA](house-prices-eda.ipynb)
 - [Enhanced EDA]
 - Feature Engineering
