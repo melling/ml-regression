@@ -11,7 +11,7 @@ Given several dozen predictors/featues, we want to accurately predict the sale p
 - [Quickstart](house-prices-quickstart.ipynb)
 - [Lasso and Ridge Regression](house-prices-lasso-and-ridge.ipynb)
 - [Polynomial Features](house-prices-polynomial.ipynb)
-- [Label Encoding and Imputation]
+- [Simple Imputer and Label Encoding](house-prices-simple-imputer.ipynb)
 - Residuals pd.DataFrame({'Error Values': (y_test - pred)}).hvplot.kde()
 - [SelectK Best Features]
 - [Forward Feature Selection]
@@ -26,9 +26,11 @@ Given several dozen predictors/featues, we want to accurately predict the sale p
 - [Support Vector Machines](house-prices-support-vector-regression.ipynb)
 - [Tensorflow](house-prices-tensorflow.ipynb)
 - ***
-- [Nonlinear Regression]
+- [Target Encoding]
 - [Ensemble Learning - Blending]
+- [Ensemble Learning - Stacking]
 - [Robust Regression - RANSAC]
+- [Nonlinear Regression]
 - [PyTorch](house-prices-pytorch.ipynb)
 - [MLPRegressor]
 - [Basic EDA](house-prices-eda.ipynb)
