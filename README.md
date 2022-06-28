@@ -19,13 +19,16 @@ Given several dozen predictors/featues, we want to accurately predict the sale p
 - [Outliers]
 - [Decision Tree and Random Forests](house-prices-decision-tree-and-random-forest.ipynb)
 - [GridSearchCV](house-prices-rf-gridsearchcv.ipynb)
-- [MLPRegressor](mlpregressor.ipynb)
+- [MLPRegressor](house-prices-mlpregressor.ipynb)
 - [Gradient Boosted Trees - XGBoost/Catboost/LightGBM](house-prices-xgboost.ipynb)
 - [GBDT Feature Importance]
 - [SHAP Values]
+- [XGBoost + CV with OOF Results]
+- [XGBoost + Optuna]
 - [Data Transformation]
 - [Support Vector Machines](house-prices-support-vector-regression.ipynb)
 - [Tensorflow](house-prices-tensorflow.ipynb)
+- [KerasTuner]
 - ***
 - [Target Encoding]
 - [Ensemble Learning - Blending]
@@ -36,6 +39,12 @@ Given several dozen predictors/featues, we want to accurately predict the sale p
 - [Basic EDA](house-prices-eda.ipynb)
 - [Enhanced EDA]
 - Feature Engineering
+
+## Misc Notebooks
+
+- [MML Linear Regression](mml-linear-regression.ipynb)
+- [DSML Feature Selection]
+
 
 ## Machine Learning Models Covered
 
