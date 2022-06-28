@@ -88,6 +88,13 @@ In addition, we will cover other topics important to machine learning:
   - Mutual Information
 - Hyperparameter Optimization
 
+## MAE
+
+
+[Mean Absolute Error](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.mean_absolute_error.html)
+
+$$MAE = \frac{\sum_{i=1}^n |y_i - x_i|}{n}$$
+
 ## RMSE
 
 [RMSE](https://en.wikipedia.org/wiki/Root-mean-square_deviation)
