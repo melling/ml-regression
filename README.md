@@ -9,9 +9,10 @@ Given several dozen predictors/featues, we want to accurately predict the sale p
 ## Notebooks
 
 - [Quickstart](house-prices-quickstart.ipynb)
-- [Lasso and Ridge Regression](house-prices-lasso-and-ridge.ipynb)
+- [Lasso, Ridge, and ElasticNet Regression](house-prices-lasso-and-ridge.ipynb)
 - [Polynomial Features](house-prices-polynomial.ipynb)
 - [Simple Imputer and Label Encoding](house-prices-simple-imputer.ipynb)
+- [Robust Regression - RANSAC](house-prices-robust-regression.ipynb)
 - Residuals pd.DataFrame({'Error Values': (y_test - pred)}).hvplot.kde()
 - [SelectK Best Features]
 - [Forward Feature Selection]
