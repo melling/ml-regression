@@ -39,10 +39,10 @@ Given several dozen predictors/featues, we want to accurately predict the sale p
 - [Basic EDA](house-prices-eda.ipynb)
 - [Enhanced EDA]
 - Feature Engineering
+- [Linear Regression from Scratch](house-prices-lr-from-scratch.ipynb)
 
 ## Misc Notebooks
 
-- [MML Linear Regression](mml-linear-regression.ipynb)
 - [DSML Feature Selection]
 
 
