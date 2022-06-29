@@ -76,6 +76,12 @@ In addition, we will cover other topics important to machine learning:
     - log transform
     - skew, kurtosis
 - Missing Values
+- Outliers
+  - Z-score
+  - IQR Method
+  - https://www.kaggle.com/code/nareshbhat/outlier-the-silent-killer
+  - Hypothesis Testing
+  - DBSCAN Clustering
 - Loss Functions
   - MAE
   - RMSE
