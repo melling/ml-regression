@@ -11,12 +11,13 @@ Given several dozen predictors/featues, we want to accurately predict the sale p
 - [Quickstart](house-prices-quickstart.ipynb)
 - [Lasso, Ridge, and ElasticNet Regression](house-prices-lasso-and-ridge.ipynb)
 - [Polynomial Features](house-prices-polynomial.ipynb)
+- [Target and Feature Distributions](house-prices-target-feature-distributions.ipynb)
 - [Simple Imputer and Label Encoding](house-prices-simple-imputer.ipynb)
 - [Robust Regression - RANSAC](house-prices-robust-regression.ipynb)
-- Residuals pd.DataFrame({'Error Values': (y_test - pred)}).hvplot.kde()
 - [SelectK Best Features]
 - [Forward Feature Selection]
 - [Stochastic Gradient Descent](house-prices-sgd.ipynb)
+- [Lasso, Ridge, and ElasticNet with log(target)](house-prices-lasso-ridge-log-target.ipynb)
 - [Outliers]
 - [Decision Tree and Random Forests](house-prices-decision-tree-and-random-forest.ipynb)
 - [GridSearchCV](house-prices-rf-gridsearchcv.ipynb)
