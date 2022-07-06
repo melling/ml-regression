@@ -15,6 +15,9 @@ Given several dozen predictors/featues, we want to accurately predict the sale p
 - [Simple Imputer and Label Encoding](house-prices-simple-imputer.ipynb)
 - [Robust Regression - RANSAC](house-prices-robust-regression.ipynb)
 - [SelectK Best Features]
+- Variance Inflation Factor (VIF)
+- Recursive Feature Elimination (RFE)
+- Mutual Information Gain
 - [Forward Feature Selection]
 - [Stochastic Gradient Descent](house-prices-sgd.ipynb)
 - [Lasso, Ridge, and ElasticNet with log(target)](house-prices-lasso-ridge-log-target.ipynb)
