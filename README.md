@@ -1,3 +1,14 @@
+This is a collection of repos devoted to learning machine learning with Kaggle.  
+
+- Regression with Housing Prices - This repo
+- [Classification with Titanic](../ml-kaggle-titanic)
+- [MNIST Solutions](../ml-mnist-kaggle-digit-recognizer)
+- [Classification with Spaceship Titanic](../ml-kaggle-spaceship-titanic)
+- [NLP with Disaster Tweets](ml-nlp-kaggle-disaster-tweets)
+- 
+
+Follow me on [Kaggle](https://www.kaggle.com/mmellinger66/)
+
 # Machine Learning Regression with Kaggle House Prices
 
 This is a deep dive into learning to solve machine learning regression problems.  Supervised learning with a continuous target value.
