@@ -1,7 +1,7 @@
 This is a collection of repos devoted to learning machine learning with Kaggle.  
 
 - Regression with Housing Prices - This repo
-- [Classification with Titanic](../ml-kaggle-titanic)
+- [Classification with Titanic](../ml-kaggle-titanic/README.md)
 - [MNIST Solutions](../ml-mnist-kaggle-digit-recognizer)
 - [Classification with Spaceship Titanic](../ml-kaggle-spaceship-titanic)
 - [NLP with Disaster Tweets](ml-nlp-kaggle-disaster-tweets)
