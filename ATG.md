@@ -5,7 +5,7 @@
 - DSML Section 5.7 p204
 - ISLR Section 4.6 p164
 - Murphy Book 1 - Chapter 12
-- Regression and Other Stories - Part 3
+- Regression and Other Stories - Part 3 - Chapter 15
 
 ## Expectation Maximization - EM
 
