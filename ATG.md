@@ -4,7 +4,7 @@
 
 - DSML Section 5.7 p204
 - ISLR Section 4.6 p164
-- Murphy Book 1 - p405
+- Murphy Book 1 - Chapter 12
 
 ## Expectation Maximization - EM
 
