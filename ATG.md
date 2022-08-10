@@ -22,8 +22,9 @@
 
 ## GLM Bookshelf
 
-- Applied Regression Analysis and Generalized Linear Models - John Fox
-- Foundations of Linear and Generalized Linear Models - Alan Agresti
-- Generalized Linear Models and Extensions - 4th ed James Hardin and Joseph Hilbe
-- Survival Analysis with Interval-Censored Data_ A Practical Approach with Examples in R, SAS, and BUGS - Kris Bogaerts,Arnost Komarek,Emmanuel Lesaffre
+- [An Introduction to Generalized Linear Models](https://www.amazon.com/Introduction-Generalized-Chapman-Statistical-Science-dp-1138741515/dp/1138741515/ref=dp_ob_title_bk)
+- [Applied Regression Analysis and Generalized Linear Models - John Fox](https://www.amazon.com/Applied-Regression-Analysis-Generalized-Linear-dp-1452205663/dp/1452205663/ref=dp_ob_title_bk)
+- [Foundations of Linear and Generalized Linear Models - Alan Agresti](https://www.amazon.com/Foundations-Linear-Generalized-Probability-Statistics/dp/1118730038)
+- [Generalized Linear Models and Extensions - 4th ed James Hardin and Joseph Hilbe](https://www.amazon.com/Generalized-Linear-Models-Extensions-Fourth/dp/1597182257)
+- [Survival Analysis with Interval-Censored Data_ A Practical Approach with Examples in R, SAS, and BUGS - Kris Bogaerts,Arnost Komarek,Emmanuel Lesaffre](https://www.amazon.com/Survival-Analysis-Interval-Censored-Data-Interdisciplinary/dp/1420077473)
 - 
