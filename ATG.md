@@ -5,8 +5,22 @@
 - DSML Section 5.7 p204
 - ISLR Section 4.6 p164
 - Murphy Book 1 - Chapter 12
+- Regression and Other Stories - Part 3
 
 ## Expectation Maximization - EM
+
+
+## Maximumn Likelihood Estimation - MLE
+
+## Gaussian Processes - GP
+
+## Survival Analysis
+
+## Anomaly Detection
+
+## Convex Optimization
+
+## Gaussian Mixture Models - GMM
 
 
 ## Bookshelf
@@ -18,6 +32,7 @@
 - [Probabilistic Machine Learning: An Introduction](https://probml.github.io/pml-book/book1.html) - Murphy Book 1
 - [Probabilistic Machine Learning: Advanced Topics](https://probml.github.io/pml-book/book2.html) - Murphy Advanced Topics
 - [Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf) - Bishop PRML
+- [Regression and Other Stories - Gelman](https://avehtari.github.io/ROS-Examples/)
 - 
 
 ## GLM Bookshelf
