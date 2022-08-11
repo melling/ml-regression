@@ -105,6 +105,7 @@ In addition, we will cover other topics important to machine learning:
   - Forward Selection
   - Reverse Selection
   - SHAP
+    - https://h2o.ai/blog/shapley-values-a-gentle-introduction/
   - Permutation Importance
   - Mutual Information
 - Hyperparameter Optimization
