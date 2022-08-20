@@ -7,6 +7,14 @@
 - Murphy Book 1 - Chapter 12
 - Regression and Other Stories - Part 3 - Chapter 15
 
+
+## PCA
+
+- MML Chapter 10
+- DSML Section 4.8 p153
+- ESL 14.5 Principal Components, Curves and Surfaces p534
+- Murphy Book 1 Chapter 20: Dimensionality Reduction
+
 ## Expectation Maximization - EM
 
 
