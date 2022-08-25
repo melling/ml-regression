@@ -1,0 +1,127 @@
+\documentclass[11pt,landscape]{article}
+
+% https://blmoistawinde.github.io/ml_equations_latex/
+
+\usepackage{amsmath,amssymb}
+
+\usepackage{multicol}
+
+\usepackage{titling}
+\date{} % no date
+
+% https://kb.mit.edu/confluence/pages/viewpage.action?pageId=3907057
+\usepackage[margin=0.5in]{geometry}
+
+% https://tex.stackexchange.com/questions/24561/setting-the-column-gap-in-a-twocolumn-or-multicol-document
+\setlength{\columnsep}{3cm}
+
+\setlength{\droptitle}{-5em}   % This is your set screw
+
+\newcommand{\indep}{\perp \!\!\! \perp}
+
+\title{Machine Learning Advanced Topics Group Formulas \vspace{-4em}}
+
+\begin{document}
+\maketitle
+
+\begin{multicols}{2}
+
+%\begin{multicols}{3}{
+\begin{equation}
+	p(x,y) = p(x)p(y) -  x \indep y
+\end{equation}
+
+% Product Rule (6.22) p184
+\begin{equation}
+	p(x,y) = p(y|x)p(x) - (6.22)
+\end{equation}
+
+\begin{equation}
+	\hat{y} = \beta_0 + \beta_1 x_1 \cdots + \beta_m x_p
+\end{equation}
+
+\begin{equation}
+	\boldsymbol{Y} = \boldsymbol{x}^T \boldsymbol{\beta}
+\end{equation}
+
+\begin{equation}
+Cov[x,y] = \mathbb{E}[xy]-\mathbb{E}[x]\mathbb{E}[y]
+\end{equation}
+
+\begin{equation}
+Corr[x,y] = \frac{Cov[x,y]}{\sqrt{\mathbb{V}[x] \mathbb{V}[y]}}
+\end{equation}
+
+% p185
+\begin{equation}
+	p(x|y) = \frac{p(y|x)p(x)}{p(y)} - (6.23)
+\end{equation}
+
+
+\begin{equation}
+odds = \frac{p(X)}{1-p(X)}
+\end{equation}
+
+\begin{equation}
+X\sim \mathcal{N}(\mu,\sigma^2)
+\end{equation}
+
+\begin{equation}
+	f(x) = \frac{1}{\sigma\sqrt{2\pi}}\exp(-\frac{1}{2\sigma^2}(x-\mu)^2) %{1+e^{-x}}
+\end{equation}
+
+
+\begin{equation}
+	X \sim U(0, 1)
+\end{equation}
+
+\begin{equation}
+	X^TX
+\end{equation}
+
+\begin{equation}
+	XX^T
+\end{equation}
+
+\begin{equation}
+	A = P D P^{-1}
+\end{equation}
+
+\begin{equation}
+	A = U\Sigma V^T
+\end{equation}
+
+% Negative entropy - Example 7.3 p237
+\begin{equation}
+	f(x) = x\,log_2\,x
+\end{equation}
+
+% Jensen's Inequality (7.30) p236
+\begin{equation}
+	f(\theta x + (1-\theta)y) = \theta f(x) + (1-\theta)f(y)
+\end{equation}
+
+\begin{equation}
+	t = \frac{\bar{X} - \mu}{\frac{\hat{\sigma}}{\sqrt{n}}}
+\end{equation}
+
+
+
+%
+
+\begin{equation}
+	\phi(x) = \frac{1}{1+e^{-x}}
+\end{equation}
+
+% ISLR (4.2))
+\begin{equation}
+	p(x) = \frac{e^{\beta_0 + \beta_1 x_1 \cdots + \beta_m x_p}}{1+e^{\beta_0 + \beta_1 x_1 \cdots + \beta_m x_p}}
+\end{equation}
+
+\begin{equation}
+BCE = -(y\,log(p)+(1-y)log(1-p))
+\end{equation}
+
+\end{multicols}{2}
+
+\end{document}
