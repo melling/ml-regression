@@ -1,4 +1,4 @@
-\documentclass[11pt]{article}
+\documentclass[fleqn]{article}
 
 % https://blmoistawinde.github.io/ml_equations_latex/
 
@@ -10,7 +10,24 @@
 \date{} % no date
 
 % https://kb.mit.edu/confluence/pages/viewpage.action?pageId=3907057
-\usepackage[margin=0.25in]{geometry}
+\usepackage[margin=0.1in]{geometry}
+
+%\geometry{
+%    margin=0.55in,
+%    top=0.35in,
+%    bottom=0.35in,
+%}
+ 
+\usepackage{tikz}
+\usetikzlibrary{
+    arrows,
+    arrows.meta,
+    positioning,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1\baselineskip}
+\setlength{\mathindent}{0pt} % fleqn option needed
 
 % https://tex.stackexchange.com/questions/24561/setting-the-column-gap-in-a-twocolumn-or-multicol-document
 %\setlength{\columnsep}{3cm}
@@ -21,23 +38,53 @@
 
 \title{Machine Learning Advanced Topics Group Formulas \vspace{-4em}}
 
+%\pagestyle{empty}
+
 \begin{document}
 \maketitle
 
 
 % Basic use of minipage environment
 
-\noindent
-\begin{minipage}[t]{0.333\textwidth}
+%\noindent
+\begin{minipage}[t]{0.33\textwidth}
 
 \textbf{Linear Algebra}
 
 \begin{equation*}
 \begin{split}
-	x^Tx\\
-	xx^T\\
-	A = P D P^{-1}\\
-	A = U\Sigma V^T\\
+	x^Tx - inner\\
+	xx^T - outer\\
+\end{split}	
+\end{equation*}
+
+\begin{multline*}
+\Phi: V \to W \\
+\Phi(x+y) = \Phi(x) +  \Phi(y)\\
+	\Phi(\lambda x) =  \lambda \Phi(x)\\
+\forall x,y\in V, \forall \lambda, \psi \in \mathbb{R} : \Phi(\lambda x + \psi y) (2.87)
+\end{multline*}
+
+\begin{equation*}
+P_\pi=\frac{bb^T}{\|b\|^2} (3.46) \\
+\end{equation*}
+
+\begin{multline}
+ker(\Phi) = \Phi^{-1}(0_W) 
+ = \{v\in V: \Phi(v) =0\} (2.122)\\
+Im(\Phi) = \Phi(V) 
+ =  \{w \in W | \exists v\in V: \Phi(v) = w \}\\
+\end{multline}
+
+\begin{equation*}
+\begin{split}
+&\forall x \in V\setminus\{0\}: x^TAx > 0\;(3.11)\\
+&\|x\|_1 := \sum_i^n |x_i| =\ell_1 \;(3.3)\\
+&\|x\|_2 := \sqrt{\sum_i^n x_i^2} = \sqrt{\textbf{x}^T \textbf{x}}\;(3.4) =\ell_2\\
+&\|x\| := \sqrt{\langle x,x\rangle}\;(3.16)\\
+&A = P D P^{-1}\;(4.55)\\
+&A^k =(P D P^{-1})^k = P D^k P^{-1}\;(4.62)\\
+&A = U\Sigma V^T\\
 \end{split}	
 \end{equation*}
 
@@ -46,6 +93,9 @@
 \begin{equation*}
 \begin{split}
 	p(x,y) = p(x)p(y) -  x \indep y\\
+	p(x|y) = p(x)) -  x \indep y\\
+	\mathbb{V}_{X,Y} =  \mathbb{V}_X[x] + \mathbb{V}_Y[y] - x \indep y\\
+	Cov(x,y) = 0 - x \indep y\\
 % Product Rule (6.22) p184
 	p(x,y) = p(y|x)p(x) - (6.22)\\
 Cov[x,y] = \mathbb{E}[xy]-\mathbb{E}[x]\mathbb{E}[y]\\
@@ -75,7 +125,7 @@ X \sim U(0, 1)\\
 
 \begin{equation*}
 \begin{split}
-	\hat{y} = \beta_0 + \beta_1 x_1 \cdots + \beta_m x_p \\
+	\hat{y} = \beta_0 + \beta_1 x_1 \cdots + \beta_n x_n] \\
 	\boldsymbol{Y} = \boldsymbol{x}^T \boldsymbol{\beta} \\
    \ell_{L1} = Error(Y - \widehat{Y}) + \lambda \sum_1^n |w_i|\\
    \ell_{L2} = Error(Y - \widehat{Y}) +  \lambda \sum_1^n w_i^{2}\\
@@ -101,20 +151,21 @@ odds = \frac{p(X)}{1-p(X)}
 
 \begin{equation*}
 \begin{split}
-BCE = -(y\,log(p)+(1-y)log(1-p))\\
-MLE = \max_{\theta} \prod_y p(y;\theta)
+\text{BCE} =& -(y\,log(p)+(1-y)log(1-p))\\
+\text{MLE} =& \max_{\theta} \prod_y p(y;\theta)
 \end{split}
 \end{equation*}
 
 
 \begin{equation*}
 \begin{split}
-Accuracy = \frac{TP+TN}{TP+TN+FP+FN}\\
-Precision = \frac{TP}{TP+FP}\\
-Recall = \frac{TP}{TP+FN}]]\\
-Sensitivity = Recall = \frac{TP}{TP+FN}\\
-Specificity = \frac{TN}{FP+TN}\\
-F1 = \frac{2*Precision*Recall}{Precision+Recall} \\= \frac{2*TP}{2*TP+FP+FN}
+&\text{Accuracy} = \frac{TP+TN}{TP+TN+FP+FN}\\
+&\text{Precision} = \frac{TP}{TP+FP}\\
+&\text{Recall} = \frac{TP}{TP+FN}\\
+&\text{Sensitivity} = Recall = \frac{TP}{TP+FN}\\
+&\text{Specificity} = \frac{TN}{FP+TN}\\
+&\text{F1} = \frac{2*Precision*Recall}{Precision+Recall} \\
+&_]= \frac{2*TP}{2*TP+FP+FN}
 \end{split}
 \end{equation*}
 
@@ -126,7 +177,7 @@ F1 = \frac{2*Precision*Recall}{Precision+Recall} \\= \frac{2*TP}{2*TP+FP+FN}
 \\\\
 
 \begin{equation*}
-	V_M = \sum_{m=1}^{M}\lambda_m
+	V_M = \sum_{m=1}^{M}\lambda_m \; (10.24)
 \end{equation*}
 
 \textbf{GMM}
@@ -137,7 +188,7 @@ Kernel trick
 \\\\
 
 \begin{equation*}
-hinge = max(0, 1 - y \cdot \hat{y})
+\text{hinge} = max(0, 1 - y \cdot \hat{y})
 \end{equation*}
 
 \textbf{Information Theory}
@@ -156,11 +207,11 @@ hinge = max(0, 1 - y \cdot \hat{y})
 
 
 \begin{equation*}
-	Gini = \sum_{k=1}^{K}\hat{p}_{mk}(1-\hat{p}_{mk})
+	\text{Gini} = \sum_{k=1}^{K}\hat{p}_{mk}(1-\hat{p}_{mk})
 \end{equation*}
 
 \begin{equation*}
-	CE = -\sum_{k=1}^{K}\hat{p}_{mk}\log _2 \hat{p}_{mk} ??
+	\text{CE} = -\sum_{k=1}^{K}\hat{p}_{mk}\log _2 \hat{p}_{mk} ??
 \end{equation*}
 
 %
