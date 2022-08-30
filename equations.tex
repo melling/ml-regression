@@ -1,5 +1,7 @@
-\documentclass[fleqn]{article}
+\documentclass[fleqn,9pt]{article}
 
+%\documentclass[a4paper]{article}
+%
 % https://blmoistawinde.github.io/ml_equations_latex/
 
 \usepackage{amsmath,amssymb}
@@ -36,7 +38,7 @@
 
 \newcommand{\indep}{\perp \!\!\! \perp}
 
-\title{Machine Learning Advanced Topics Group Formulas \vspace{-4em}}
+\title{Machine Learning Advanced Topics Group Formulas \vspace{-6em}}
 
 %\pagestyle{empty}
 
@@ -53,34 +55,39 @@
 
 \begin{equation*}
 \begin{split}
-	x^Tx - inner\\
+	A(B+C) = AB + AC\\
+	A(BC) = (AB)C \\
+	(AB)^T =B^TA^T\\
+	A^TA = AA^T = I \implies A^T = A^{-1}\\
+	x^Ty = y^Tx\\
+		x^Tx - inner\\
 	xx^T - outer\\
 \end{split}	
 \end{equation*}
 
 \begin{multline*}
 \Phi: V \to W \\
-\Phi(x+y) = \Phi(x) +  \Phi(y)\\
+\Phi(x+y) = \Phi(x) + \Phi(y)\; (2.85) \\
 	\Phi(\lambda x) =  \lambda \Phi(x)\\
-\forall x,y\in V, \forall \lambda, \psi \in \mathbb{R} : \Phi(\lambda x + \psi y) (2.87)
+\forall x,y\in V, \forall \lambda, \psi \in \mathbb{R} : \Phi(\lambda x + \psi y) 
 \end{multline*}
 
 \begin{equation*}
 P_\pi=\frac{bb^T}{\|b\|^2} (3.46) \\
 \end{equation*}
 
-\begin{multline}
+\begin{multline*}
 ker(\Phi) = \Phi^{-1}(0_W) 
  = \{v\in V: \Phi(v) =0\} (2.122)\\
 Im(\Phi) = \Phi(V) 
  =  \{w \in W | \exists v\in V: \Phi(v) = w \}\\
-\end{multline}
+\end{multline*}
 
 \begin{equation*}
 \begin{split}
-&\forall x \in V\setminus\{0\}: x^TAx > 0\;(3.11)\\
 &\|x\|_1 := \sum_i^n |x_i| =\ell_1 \;(3.3)\\
-&\|x\|_2 := \sqrt{\sum_i^n x_i^2} = \sqrt{\textbf{x}^T \textbf{x}}\;(3.4) =\ell_2\\
+&\|x\|_2 := \sqrt{\sum_i^n x_i^2} = \sqrt{\textbf{x}^T \textbf{x}} =\ell_2 \;(3.4)\\
+&\forall x \in V\setminus\{0\}: x^TAx > 0\;(3.11)\\
 &\|x\| := \sqrt{\langle x,x\rangle}\;(3.16)\\
 &A = P D P^{-1}\;(4.55)\\
 &A^k =(P D P^{-1})^k = P D^k P^{-1}\;(4.62)\\
@@ -89,26 +96,24 @@ Im(\Phi) = \Phi(V)
 \end{equation*}
 
 \textbf{Probability}
-\begin{center}
+%\begin{center}
 \begin{equation*}
 \begin{split}
 	p(x,y) = p(x)p(y) -  x \indep y\\
-	p(x|y) = p(x)) -  x \indep y\\
+	p(x|y) = p(x) -  x \indep y\\
 	\mathbb{V}_{X,Y} =  \mathbb{V}_X[x] + \mathbb{V}_Y[y] - x \indep y\\
 	Cov(x,y) = 0 - x \indep y\\
 % Product Rule (6.22) p184
-	p(x,y) = p(y|x)p(x) - (6.22)\\
-Cov[x,y] = \mathbb{E}[xy]-\mathbb{E}[x]\mathbb{E}[y]\\
-Corr[x,y] = \frac{Cov[x,y]}{\sqrt{\mathbb{V}[x] \mathbb{V}[y]}}\\
-% p185
-	p(x|y) = \frac{p(y|x)p(x)}{p(y)} - (6.23)\\
+p(x,y) = p(y|x)p(x) - (6.22)\\
+p(x|y) = \frac{p(y|x)p(x)}{p(y)} - (6.23)\\
+Cov[x,y] = \mathbb{E}[xy]-\mathbb{E}[x]\mathbb{E}[y]\;(6.36)\\
+corr[x,y] = \frac{Cov[x,y]}{\sqrt{\mathbb{V}[x] \mathbb{V}[y]}}\;(6.40)\\
 X\sim \mathcal{N}(\mu,\sigma^2)\\
 X\sim \mathcal{N}(\mu, \boldsymbol{\Sigma^2})\\
-f(x) = \frac{1}{\sigma\sqrt{2\pi}}\exp(-\frac{1}{2\sigma^2}(x-\mu)^2) \\
 X \sim U(0, 1)\\
 \end{split}		
 \end{equation*}
-\end{center}
+%\end{center}
 
 \end{minipage}% <---------------- Note the use of "%"
 \begin{minipage}[t]{0.33\textwidth}
@@ -125,7 +130,7 @@ X \sim U(0, 1)\\
 
 \begin{equation*}
 \begin{split}
-	\hat{y} = \beta_0 + \beta_1 x_1 \cdots + \beta_n x_n] \\
+	\hat{y} = \beta_0 + \beta_1 x_1 \cdots + \beta_n x_n \\
 	\boldsymbol{Y} = \boldsymbol{x}^T \boldsymbol{\beta} \\
    \ell_{L1} = Error(Y - \widehat{Y}) + \lambda \sum_1^n |w_i|\\
    \ell_{L2} = Error(Y - \widehat{Y}) +  \lambda \sum_1^n w_i^{2}\\
@@ -165,7 +170,7 @@ odds = \frac{p(X)}{1-p(X)}
 &\text{Sensitivity} = Recall = \frac{TP}{TP+FN}\\
 &\text{Specificity} = \frac{TN}{FP+TN}\\
 &\text{F1} = \frac{2*Precision*Recall}{Precision+Recall} \\
-&_]= \frac{2*TP}{2*TP+FP+FN}
+&]= \frac{2*TP}{2*TP+FP+FN}
 \end{split}
 \end{equation*}
 
@@ -181,7 +186,13 @@ odds = \frac{p(X)}{1-p(X)}
 \end{equation*}
 
 \textbf{GMM}
-\\\\
+\begin{equation*}
+\begin{split}
+p(x|\theta) = \sum_{k=1}^K \pi_k \mathcal{N}(x|\mu_k,\Sigma_k)\; (11.3)\\
+0 \le \pi_k \le 1, \sum_{k=1}^K \pi_k = 1\;(11.4)
+\end{split}
+\end{equation*}
+
 \textbf{Support Vector Kernels}
 \\\\
 Kernel trick
@@ -224,8 +235,16 @@ KL(\hat{y} || y) = \sum_{c=1}^{M}\hat{y}_c \log{\frac{\hat{y}_c}{y_c}}
 cos(x,y) = \frac{x \cdot y}{|x||y|}
 \end{equation*}
 
-\end{minipage}
+\textbf{Distributions}
 
+\begin{equation*}
+\begin{split}
+f(x) &= \frac{1}{\sigma\sqrt{2\pi}}\exp(-\frac{1}{2\sigma^2}(x-\mu)^2) \\
+\\
+f(\boldsymbol{x}) &= \frac{1}{\sqrt{(2\pi)^n det(\Sigma)}} \exp(-\frac{1}{2}(\boldsymbol{x}-\boldsymbol{\mu})^T \Sigma^{-1} (\boldsymbol{x}-\boldsymbol{\mu}) \\
+\end{split}
+\end{equation*}
+\end{minipage}
 
 
 \end{document}
